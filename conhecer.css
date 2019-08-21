@@ -1,0 +1,23 @@
+footer {
+    margin-top: 5%;
+}
+#botao {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+#carro {
+    max-height: 100px;
+}
+#placeholder {
+    margin-top: 3%;
+}#text {
+    margin: 5% 5% 0% 5%;
+    
+}
+#carousel {
+    margin-top: 5%;
+}
+h1 {
+    margin: 3% 0% 0% 3%;
+}
