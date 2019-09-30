@@ -6,7 +6,6 @@
     <title>Tecno Porto</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="geral.css" />
     <script src="geral.js"></script>
 </head>
@@ -20,7 +19,6 @@
                 <a class="navbar-brand" href="index.html">
                     <img src="img.jpg" width="50" height="50" alt="Não foi possivel achar a imagem" >
                 </a>
-
               
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                   <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
@@ -43,26 +41,26 @@
               </nav>
     </header>
 
-    <h1 class="text-center">TecnoPorto</h1>
+    <h1 class="d-flex justify-content-center">Empresas</h1>
     <div class="w-100 d-flex justify-content-center">
         <table class="table table-hover w-75 table-bordered mt-5">
             <thead class="thead-dark">
               <tr>
                 <th scope="col">#</th>
-                <th scope="col">Navio</th>
+                <th scope="col">Nome</th>
                 <th scope="col">Bandeira</th>
-                <th scope="col">Estado</th>
-                <th scope="col">Empresa</th>
+                <th scope="col">Registro</th>
+                <th scope="col">Navios</th>
                 <th scope="col"></th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <th scope="row">1</th>
-                <td>Navio 1</td>
+                <td>Empresa 1</td>
                 <td>Brasil</td>
-                <td>Atracado no Porto</td>
-                <td>ORION</td>
+                <td>000001</td>
+                <td>10</td>
                 <td class="w-100 d-flex justify-content-around">
                     <button type="button" class="btn btn-danger btn-sm">Excluir</button>
                     <button type="button" class="btn btn-warning btn-sm">Editar</button>
@@ -70,10 +68,10 @@
               </tr>
               <tr>
                 <th scope="row">2</th>
-                <td>Navio 2</td>
+                <td>Empresa 2</td>
                 <td>Argentina</td>
-                <td>Entrando no Porto</td>
-                <td>Wilson Sons</td>
+                <td>000002</td>
+                <td>07</td>
                 <td class="w-100 d-flex justify-content-around">
                     <button type="button" class="btn btn-danger btn-sm">Excluir</button>
                     <button type="button" class="btn btn-warning btn-sm">Editar</button>
@@ -81,10 +79,10 @@
               </tr>
               <tr>
                 <th scope="row">3</th>
-                <td>Navio 3</td>
+                <td>Empresas 3</td>
                 <td>Alemanha</td>
-                <td>Atracado no Porto</td>
-                <td>TECCON</td>
+                <td>000003</td>
+                <td>05</td>
                 <td class="w-100 d-flex justify-content-around">
                     <button type="button" class="btn btn-danger btn-sm">Excluir</button>
                     <button type="button" class="btn btn-warning btn-sm">Editar</button>
@@ -92,10 +90,10 @@
               </tr>
               <tr>
                 <th scope="row">4</th>
-                <td>Navio 4</td>
+                <td>Empresa 4</td>
                 <td>Grécia</td>
-                <td>Saindo do Porto</td>
-                <td>Pedrinho Maritmos</td>
+                <td>00004</td>
+                <td>13</td>
                 <td class="w-100 d-flex justify-content-around">
                     <button type="button" class="btn btn-danger btn-sm">Excluir</button>
                     <button type="button" class="btn btn-warning btn-sm">Editar</button>
@@ -103,10 +101,10 @@
               </tr>
               <tr>
                 <th scope="row">5</th>
-                <td>Navio 5</td>
+                <td>Empresa 5</td>
                 <td>Austria</td>
-                <td>Entrando no Porto</td>
-                <td>Wilsson Sons</td>
+                <td>00006</td>
+                <td>02</td>
                 <td class="w-100 d-flex justify-content-around">
                     <button type="button" class="btn btn-danger btn-sm">Excluir</button>
                     <button type="button" class="btn btn-warning btn-sm">Editar</button>
@@ -116,10 +114,12 @@
           </table>     
     </div>
 
-    <a id="button" href="incluirEmp.html" class="btn btn-outline-primary btn-lg active" role="button" aria-pressed="true">Inserir Empresa</a>      
+    <form id="insEmp" class="d-flex flex-row-reverse mt-5">
+        <a id="button" href="incluirEmp.html" class="btn btn-outline-primary btn-lg active" role="button" aria-pressed="true">Inserir Empresa</a>      
+    </form>
 
     <footer class="text-light bg-dark fixed-bottom">
-        <div id="placeholder" class="d-flex justify-content-around">
+        <div id="placeholder" class="d-flex justify-content-around mt-2">
             <img id="img1" src="300x250.png" width="50" height="50" alt="Não foi possivel necontrar uma imagem">
             <img id="img2" src="300x250.png" width="50" height="50" alt="Não foi possivel necontrar uma imagem">
         </div>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="incluirEmp.css">
+    <title>TecnoPorto</title>
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <a class="navbar-brand" href="index.html">
+                    <img src="img.jpg" width="50" height="50" alt="Não foi possivel achar a imagem" >
+                </a>
+              
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="login.html">Seja Bem-Vindo</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="conhecer.html">Conheça nosso Porto</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="btn-group-vertical">
+                        <a class="btn btn-success" href="login.html" role="button">login</a>
+                        <p></p>
+                        <a class="btn btn-success" href="cadastro.html" role="button">Sign Up</a>
+                </div>
+              </nav>
+    </header>
+
+    <h1 class="d-flex justify-content-center">Cadastrando um Conteinere</h1>
+
+    <form id="formulario">
+        <div class="form-group row">
+            <label for="name" class="col-sm-2 col-form-label">Código do Conteinere:</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="inputEmail3" placeholder="Ex: TF4927 ">
+            </div>
+        </div>
+        
+        <div class="form-group">
+            <label for="coment">Comentário:</label>
+            <textarea class="form-control" id="comentario" rows="3"></textarea>
+        </div>
+        <div class="d-flex bd-highlight mb-3">
+        <div class="form-group row col-md-4">
+            <label for="inputState">País:</label>
+            <select id="inputState" class="form-control">
+                <option selected>País</option>
+                <option>Alemanha</option>
+                <option>Grécia</option>
+                <option>Austria</option>
+                <option>Brasil</option>
+            </select>
+        </div>
+        <div class="form-group col-md-4 ml-auto p-2 bd-highlight">
+            <label for="inputState">Empresa:</label>
+            <select id="inputState" class="form-control d-flex">
+                <option selected>Empresa</option>
+                <option>Empresa 1</option>
+                <option>Empresa 2</option>
+                <option>Empresa 3</option>
+                <option>Empresa 4</option>
+            </select>
+        </div>
+        <div class="form-group col-md-4 ml-auto p-2 bd-highlight">
+            <label for="inputState">Estado:</label>
+            <select id="inputState" class="form-control d-flex">
+                <option selected>Estado</option>
+                <option>À bordo</option>
+                <option>Parado</option>
+                <option>Carregado</option>
+                <option>Vazio</option>
+            </select>
+        </div>
+        </div>
+        <div class="d-flex flex-row-reverse mr-5 mb-5">
+            <button type="submit" class="btn-primary btn-lg">Cadastrar</button>
+        </div>
+        <p>Não deseja inserir novos conteineres? Clique <a href="geral.html">aqui</a> para visualizar o Porto atualizado.</p>
+        </form>
+
+        <footer class="text-light bg-dark fixed-bottom">
+                <div id="placeholder" class="d-flex justify-content-around mt-2">
+                    <img id="img1" src="300x250.png" width="50" height="50" alt="Não foi possivel necontrar uma imagem">
+                    <img id="img2" src="300x250.png" width="50" height="50" alt="Não foi possivel necontrar uma imagem">
+                </div>
+                <div id="left" class="d-flex justify-content-around">
+                    <p>Pedro Edom Nunes</p>
+                    <p>Amantes de Pipinha</p>
+                </div>
+            </footer>
+        
+
+</body>
+</html>
