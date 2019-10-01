@@ -1,14 +1,1 @@
-#botao {
-    display: flex;
-    justify-content: center;
-    margin-top: 5%;
-}
-footer {
-    margin-top: 5%;
-}
-#text {
-    margin-top: 5%;
-}
-#carro {
-    margin-top: 10%;
-}
+#botao{display: flex;justify-content: center;margin-top: 5%;}footer{margin-top: 5%;}#text{margin-top: 5%;}#carro{margin-top: 10%;}
